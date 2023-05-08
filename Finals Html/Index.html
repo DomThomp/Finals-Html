@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="Styles/js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+    </script>
+
+<audio controls volume="0.5">
+  <source src="/Music/Miracles of Modern Science - Breather.mp3" type="audio/mpeg">
+  
+</audio>
+
+    <title> Cute pet blog </title>
+    <meta name="description" content=""> <meta name="keywords" content="">
+</head>
+    
+<body>
+    <header>
+        <h1> Cute pet blog</h1>
+        <embed>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="Index.html"  class="Current"> Home</a></li>
+                <li><a href="Housepets.html">Family pets</a></li>
+                <li><a href="Exotic.html">Exotic Animals</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="featured-pet">
+        <h2>Featured Pet</h2>
+        <img src="Images/begel.jpg" class="featured-pet" alt="">
+      </section>
+      <section class="recent-posts">
+        <h2>Recent submissions</h2>
+        <ul>
+          <li><img src="Images/pacificparrotlet.jpg"></li>
+          <li><img src="Images/peking-duck-baby-duckling-yellow.jpg"></li>
+          <li><img src="Images/rats.jpeg"></li>
+        </ul>
+      </section>
+        <section class="about-us">
+          <h2>About Us</h2>
+          <p></p>
+          <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </section>
+      </main>
+</body>
+
+</html>
