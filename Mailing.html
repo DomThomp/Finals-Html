@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Testing</title>
+    <meta name="description" content="Test, Final, Final project, project">
+    <link rel="stylesheet"   href="Styles/main.css">
+    <link rel="stylesheet"   href="Styles/js/jquery.slicknav.min.js">
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+    </script>
+</head>
+
+<body>
+    
+    <header>
+        <embed>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+            <li><a href="Index.html"> Home</a></li>
+            <li><a href="Housepets.html">Family pets</a></li>
+            <li><a href="Exotic.html">Exotic Animals</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <form action="Receiving.html" method="get">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" pattern="[A-Za-z]+" required><br><br>
+            
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" pattern="[A-Za-z]+" required><br><br>
+            
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+            
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+</body>
+</html>
